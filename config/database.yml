@@ -49,6 +49,5 @@ test:
 #
 production:
   <<: *default
-  database: simple_cms_production
-  username: simple_cms
-  password: <%= ENV['SIMPLE_CMS_DATABASE_PASSWORD'] %>
+  url: mysql://kxu0ro016dgnnyh2:lsoqytp52cplv8bw@izm96dhhnwr2ieg0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/crktiifjnzxxgkd4
+  
