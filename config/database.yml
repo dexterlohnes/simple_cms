@@ -49,5 +49,5 @@ test:
 #
 production:
   <<: *default
-  url: mysql://kxu0ro016dgnnyh2:lsoqytp52cplv8bw@izm96dhhnwr2ieg0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/crktiifjnzxxgkd4
+  url: mysql2://kxu0ro016dgnnyh2:lsoqytp52cplv8bw@izm96dhhnwr2ieg0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/crktiifjnzxxgkd4
   
