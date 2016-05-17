@@ -23,7 +23,9 @@ development:
 
 staging:
   <<: *default
-  database: simple_cms_development
+  url: mysql2://r2hjpvbbbmxzswu8:onfun03farxx2hdg@izm96dhhnwr2ieg0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qp4jlvt3r0oq0t80
+
+
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
