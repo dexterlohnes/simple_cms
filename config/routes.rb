@@ -3,16 +3,16 @@ Rails.application.routes.draw do
   #get 'demo/index'
   root 'demo#index'
   # match ':controller(/:action)', :via => :get
-  # match ':controller(/:action(/:id))', :via => [:get, :post]
+  match ':controller(/:action(/:id))', :via => [:get, :post]
 
-  match 'subjects', :via => [:get], :controller => "subjects", :action => "index"
-  match 'subjects/new', :via => [:get], :controller => "subjects", :action => "new"
-  match 'subjects/show/:id', :via => [:get], :controller => "subjects", :action => "show"
-  match 'subjects/edit/:id', :via => [:get], :controller => "subjects", :action => "edit"
-  match 'subjects/delete/:id', :via => [:get], :controller => "subjects", :action => "delete"
-  match 'subjects/update/:id', :via => [:post], :controller => "subjects", :action => "update"
-  match 'subjects/create', :via => [:post], :controller => "subjects", :action => "create"
-  match 'subjects/destroy/:id', :via => [:post], :controller => "subjects", :action => "destroy"
+  # match 'subjects', :via => [:get], :controller => "subjects", :action => "index"
+  # match 'subjects/new', :via => [:get], :controller => "subjects", :action => "new"
+  # match 'subjects/show/:id', :via => [:get], :controller => "subjects", :action => "show"
+  # match 'subjects/edit/:id', :via => [:get], :controller => "subjects", :action => "edit"
+  # match 'subjects/delete/:id', :via => [:get], :controller => "subjects", :action => "delete"
+  # match 'subjects/update/:id', :via => [:post], :controller => "subjects", :action => "update"
+  # match 'subjects/create', :via => [:post], :controller => "subjects", :action => "create"
+  # match 'subjects/destroy/:id', :via => [:post], :controller => "subjects", :action => "destroy"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
