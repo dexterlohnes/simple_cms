@@ -14,6 +14,8 @@ Rails.application.routes.draw do
   match 'subjects/create', :via => [:post], :controller => "subjects", :action => "create"
   match 'subjects/destroy/:id', :via => [:post], :controller => "subjects", :action => "destroy"
 
+  match 'subjects#index', :via => :get
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
